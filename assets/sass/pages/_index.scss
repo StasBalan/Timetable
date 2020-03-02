@@ -1,0 +1,44 @@
+section.timetable {
+  .inner {
+    padding: 72px 82px;
+    &__title {
+      font-size: 45px;
+      font-weight: bold;
+      line-height: 53px;
+      letter-spacing: 0.05em;
+      color: #3E3E3E;
+    }
+
+    .table {
+      display: flex;
+      flex-direction: column;
+
+      &__header {
+        display: flex;
+        padding: 54px 19px 25px 76px;
+
+        p {
+          width: 17%;
+          color: #383838;
+          text-align: center;
+        }
+      }
+
+      &__item {
+        display: flex;
+        margin-bottom: 20px;
+        padding: 32px 19px 32px 76px;
+        background-color: #fff;
+
+        p {
+          width: 17%;
+          text-align: center;
+        }
+
+        .subject {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
